@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+﻿using ZeldaGame.GameObjectHandler;
+using ZeldaGame.Interfaces;
+=======
+﻿using ZeldaGame.Interfaces;
+using ZeldaGame.Player;
+>>>>>>> origin/multiplayer-menus
+
+namespace ZeldaGame.Commands
+{
+    class OpenMenu : ICommand
+    {
+        private readonly Game1 game;
+        private bool playerMenu;
+        public OpenMenu(Game1 game, bool player)
+        {
+            this.game = game;
+            playerMenu = player;
+
+        }
+        public bool Execute()
+        {
+            if (!game.MenuTrans && !game.MenuActive)
+            {
+<<<<<<< HEAD
+                TransitionMenu();
+
+                foreach (IController controller in game.Controllers)
+                {
+                    controller.ToggleInMenu();
+                }
+
+                game.CurrentLevel.BuildMap();
+                game.CurrentLevel.StartLevel();
+
+=======
+                game.MenuTransition(playerMenu);
+                game.ToggleInMenu();
+>>>>>>> origin/multiplayer-menus
+            }
+            return true;
+        }
+
+        private void TransitionMenu()
+        {
+            if (game.MenuActive)
+            {
+                game.MenuActive = false;
+                game.MenuTrans = true;
+                //changes direction display moves
+                game.Menu.FlipDirection();
+                game.Menu.Transition = true;
+            }
+            else
+            {
+                game.MenuTrans = true;
+                //changes direction display moves
+                game.Menu.FlipDirection();
+                game.Menu.Transition = true;
+
+                BlockManager.Pause();
+                ItemManager.Pause();
+                GameObjectManager.Pause();
+                EnemyManager.Pause();
+                PlayerManager.Pause();
+                PlayerProjectileManager.Pause();
+                EnemyProjectileManager.Pause();
+            }
+        }
+    }
+}

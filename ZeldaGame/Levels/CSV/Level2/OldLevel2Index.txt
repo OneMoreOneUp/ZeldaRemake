@@ -1,0 +1,24 @@
+﻿Room9-1 // deleted because item room isn't necessary
+
+End room here
+Room1-2 // Room7-1
+Room1-3 // B_72
+Room2-3 // Room6-2
+Room2-4 // Room6-3
+Room3-3 // Room5-2
+Room3-4 // Room5-3
+Room4-3 // Room4-2
+Room4-4 // Room4-3
+Room5-3 // Room3-2
+Room5-5 // Room3-1
+Room6-3 // Room2-2
+Room6-4 // Room2-3
+Room7-1 // Room1-0
+Room7-2 // Room1-1
+Room7-3 // Room1-2
+Room7-4 // Room1-3
+Room8-2 // O_01
+Room8-3 // Room0-2
+Start Room down here
+
+Flipped the indexing from top to bottom to bottom Left/Top Right

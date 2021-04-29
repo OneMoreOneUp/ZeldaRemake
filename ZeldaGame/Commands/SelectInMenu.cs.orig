@@ -1,0 +1,44 @@
+﻿using ZeldaGame.Enums;
+using ZeldaGame.Interfaces;
+using ZeldaGame.Player;
+
+namespace ZeldaGame.Commands
+{
+    class SelectInMenu : ICommand
+    {
+        private readonly Game1 game;
+        private bool playerMenu;
+        public SelectInMenu(Game1 game, bool player)
+        {
+            this.game = game;
+            playerMenu = player;
+        }
+        public bool Execute()
+        {
+<<<<<<< HEAD
+            game.Menu.GiveCommand(Direction.Null, true);
+            game.OpenMenu(this.player);
+
+            foreach (IController controller in game.Controllers)
+            {
+                controller.ToggleInMenu();
+            }
+
+            game.CurrentLevel.BuildMap();
+            game.CurrentLevel.StartLevel();
+
+=======
+            if (game.menuPlayer)
+            {
+                game.MenuPlayer1.GiveCommand(Direction.Null, true);
+            } else
+            {
+                game.MenuPlayer2.GiveCommand(Direction.Null, true);
+            }
+            game.TransitionMenu(playerMenu);
+            game.ToggleInMenu();
+>>>>>>> origin/multiplayer-menus
+            return true;
+        }
+    }
+}

@@ -1,0 +1,1175 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data>
+	<enemies>
+		<object name ="LeftStatue1">
+			<attributes>
+				<layer>0.4</layer>
+				<damage>1</damage>
+				<attack_duration>250</attack_duration>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name ="RightStatue1">
+			<attributes>
+				<layer>0.4</layer>
+				<damage>1</damage>
+				<attack_duration>250</attack_duration>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Keese">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.075</velocity>
+				<speedup>0.015</speedup>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>20</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Stalfos">
+			<attributes>
+				<layer>0.4</layer>
+				<health>2</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Goriya">
+			<attributes>
+				<layer>0.4</layer>
+				<health>3</health>
+				<velocity>0.075</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<attack_duration>45</attack_duration>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name ="EnemySpawn">
+			<attributes>
+				<layer>0.39</layer>
+				<damage>0</damage>
+				<animation_framerate>10</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name ="EnemyDeath">
+			<attributes>
+				<layer>0.39</layer>
+				<damage>0</damage>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="BlueGoriya">
+			<attributes>
+				<layer>0.4</layer>
+				<health>3</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<attack_duration>45</attack_duration>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Gel">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Zol">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="WallMaster">
+			<attributes>
+				<layer>0.45</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>32</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="SpikeTrap">
+			<attributes>
+				<layer>0.4</layer>
+				<velocity>0.12</velocity>
+				<damage>1</damage>
+				<horizontal_attack_distance>84</horizontal_attack_distance>
+				<vertical_attack_distance>48</vertical_attack_distance>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Rope">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<horizontal_attack_distance>84</horizontal_attack_distance>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Aquamentus">
+			<attributes>
+				<layer>0.4</layer>
+				<health>5</health>
+				<velocity>0.075</velocity>
+				<damage>1</damage>
+				<direction_change_time>32</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>24</width>
+				<height>32</height>
+			</hitbox>
+		</object>
+        <object name="Gohma">
+            <attributes>
+                <layer>0.4</layer>
+                <health>5</health>
+                <velocity>0.075</velocity>
+                <damage>1</damage>
+                <direction_change_time>32</direction_change_time>
+                <animation_framerate>6</animation_framerate>
+            </attributes>
+            <hitbox>
+                <width>24</width>
+                <height>32</height>
+            </hitbox>
+        </object>
+		<object name="Dodongo">
+			<attributes>
+				<layer>0.4</layer>
+				<health>4</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<attack_duration>35</attack_duration>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="OldMan">
+			<attributes>
+				<layer>0.4</layer>
+				<damage>0</damage>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Merchant">
+			<attributes>
+				<layer>0.4</layer>
+				<damage>0</damage>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Bubble">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.15</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>4</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="LikeLike">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>10</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="PolsVoice">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Darknut">
+			<attributes>
+				<layer>0.4</layer>
+				<health>3</health>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+        <object name="ManHandlaHeads">
+            <attributes>
+				<layer>0.4</layer>
+                <health>2</health>
+                <damage>1</damage>
+                <animation_framerate>12</animation_framerate>
+            </attributes>
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+        <object name="ManHandlaController">
+            <attributes>
+				<layer>0.4</layer>
+                <velocity>0.06</velocity>
+				<speedup>0.02</speedup>
+                <damage>1</damage>
+                <direction_change_time>96</direction_change_time>
+            </attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+        </object>
+		<object name="BlueDarknut">
+			<attributes>
+				<layer>0.4</layer>
+				<health>3</health>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Vire">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+        <object name="Moldorm">
+            <attributes>
+				<layer>0.4</layer>
+                <health>10</health>
+                <velocity>0.11</velocity>
+                <damage>1</damage>
+                <direction_change_time>96</direction_change_time>
+            </attributes>
+            <hitbox>
+                <width>8</width>
+                <height>8</height>
+            </hitbox>
+        </object>
+        <object name="MoldormBody">
+            <attributes>
+				<layer>0.4</layer>
+                <health>2</health>
+                <damage>1</damage>
+            </attributes>
+            <hitbox>
+                <width>8</width>
+                <height>10</height>
+            </hitbox>
+        </object>
+        <object name="Gibdo">
+            <attributes>
+				<layer>0.4</layer>
+                <health>1</health>
+                <velocity>0.15</velocity>
+                <damage>1</damage>
+                <direction_change_time>96</direction_change_time>
+                <animation_framerate>6</animation_framerate>
+            </attributes>
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+		<object name="Wizzrobe">
+			<attributes>
+				<layer>0.4</layer>
+				<health>1</health>
+				<velocity>0.11</velocity>
+				<damage>1</damage>
+				<direction_change_time>96</direction_change_time>
+				<animation_framerate>6</animation_framerate>
+                <attack_duration>45</attack_duration>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+	</enemies>
+	<enemy_projectiles>
+		<object name="Fireball">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.1</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="Arrow">
+			<attributes>
+				<layer>0.3</layer>
+				<damage>1</damage>
+				<attack_distance>1000</attack_distance>
+			</attributes>
+			<hitbox version ="vertical">
+				<width>4</width>
+				<height>16</height>
+			</hitbox>
+			<hitbox version ="horizontal">
+				<width>16</width>
+				<height>4</height>
+			</hitbox>
+		</object>
+		<object name="WoodenBoomerang">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="MagicalBoomerang">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+        <object name="MagicalRodBeam">
+            <attributes>
+                <layer>0.3</layer>
+                <velocity>0.2</velocity>
+                <damage>1</damage>
+                <animation_framerate>6</animation_framerate>
+                <attack_distance>1000</attack_distance>
+                <summon_distance>16</summon_distance>
+            </attributes>
+            <hitbox>
+                <width>14</width>
+                <height>14</height>
+            </hitbox>
+        </object>
+	</enemy_projectiles>
+	<player_projectiles>
+		<object name="Flame">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+				<summon_distance>8</summon_distance>
+			</attributes>
+			<hitbox>
+				<width>14</width>
+				<height>14</height>
+			</hitbox>
+		</object>
+		<object name="WoodenBoomerang">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>60</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>100</attack_distance>
+				<summon_distance>16</summon_distance>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="MagicalBoomerang">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>120</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>100</attack_distance>
+				<summon_distance>16</summon_distance>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="Arrow">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<attack_distance>1000</attack_distance>
+				<summon_distance>8</summon_distance>
+			</attributes>
+			<hitbox version ="vertical">
+				<width>4</width>
+				<height>16</height>
+			</hitbox>
+			<hitbox version ="horizontal">
+				<width>16</width>
+				<height>4</height>
+			</hitbox>
+		</object>
+		<object name="Bomb">
+			<attributes>
+				<layer>0.3</layer>
+				<damage>1</damage>
+				<fuse_time>75</fuse_time>
+				<animation_framerate>8</animation_framerate>
+				<explosion_time>48</explosion_time>
+				<summon_distance>8</summon_distance>
+			</attributes>
+			<hitbox version ="intact">
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+			<hitbox version ="explosion">
+				<width>64</width>
+				<height>64</height>
+			</hitbox>
+		</object>
+		<object name="Food">
+			<attributes>
+				<layer>0.3</layer>
+				<damage>0</damage>
+				<spoil_time>500</spoil_time>
+				<summon_distance>8</summon_distance>
+			</attributes>
+			<hitbox>
+				<width>64</width>
+				<height>64</height>
+			</hitbox>>
+		</object>
+		<object name="SwordBeam">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+				<summon_distance>8</summon_distance>
+			</attributes>
+			<hitbox version="vertical">
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+			<hitbox version="horizontal">
+				<width>16</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="MagicalRodBeam">
+			<attributes>
+				<layer>0.3</layer>
+				<velocity>0.2</velocity>
+				<damage>1</damage>
+				<animation_framerate>6</animation_framerate>
+				<attack_distance>1000</attack_distance>
+				<summon_distance>16</summon_distance>
+			</attributes>
+			<hitbox>
+				<width>14</width>
+				<height>14</height>
+			</hitbox>
+		</object>
+	</player_projectiles>
+	<blocks>
+		<object name="Flame">
+			<attributes>
+				<layer>0.5</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Floor">
+			<attributes>
+				<layer>0.8</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Stair">
+			<attributes>
+				<layer>0.75</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Empty">
+			<attributes>
+				<layer>0.75</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Ladder">
+			<attributes>
+				<layer>0.7</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Brick">
+			<attributes>
+				<layer>0.5</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+        <object name="HalfDivider">
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+		<object name="Divider">
+			<attributes>
+				<layer>0.5</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="RightStatue">
+			<attributes>
+				<layer>0.5</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="LeftStatue">
+			<attributes>
+				<layer>0.5</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Dirt">
+			<attributes>
+				<layer>0.75</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Water">
+			<attributes>
+				<layer>0.7</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Wall">
+			<attributes>
+				<layer>0.41</layer>
+			</attributes>
+			<hitbox version ="BottomLeftWall">
+				<width>112</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version ="LeftBottomWall">
+				<width>32</width>
+				<height>40</height>
+			</hitbox>
+			<hitbox version ="BottomRightWall">
+				<width>112</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version ="RightBottomWall">
+				<width>32</width>
+				<height>40</height>
+			</hitbox>
+			<hitbox version ="TopLeftWall">
+				<width>112</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version ="LeftTopWall">
+				<width>32</width>
+				<height>40</height>
+			</hitbox>
+			<hitbox version ="TopRightWall">
+				<width>112</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version ="RightTopWall">
+				<width>32</width>
+				<height>40</height>
+			</hitbox>
+		</object>
+		<object name="Door">
+			<attributes>
+				<layer>0.41</layer>
+			</attributes>
+			<hitbox version="BombableDoor" version2="north">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="BombableDoor" version2="south">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="BombableDoor" version2="east">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="BombableDoor" version2="west">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="BombedDoor" version2="north">
+				<width>32</width>
+				<height>8</height>
+			</hitbox>
+			<hitbox version="BombedDoor" version2="south">
+				<width>32</width>
+				<height>8</height>
+			</hitbox>
+			<hitbox version="BombedDoor" version2="east">
+				<width>8</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="BombedDoor" version2="west">
+				<width>8</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="NoDoor" version2="north">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version= "NoDoor" version2="south">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="NoDoor" version2="east">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="NoDoor" version2="west">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="OpenDoor" version2="north">
+				<width>32</width>
+				<height>8</height>
+			</hitbox>
+			<hitbox version= "OpenDoor" version2="south">
+				<width>32</width>
+				<height>8</height>
+			</hitbox>
+			<hitbox version="OpenDoor" version2="east">
+				<width>8</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="OpenDoor" version2="west">
+				<width>8</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="ClosedDoor" version2="north">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version= "ClosedDoor" version2="south">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="ClosedDoor" version2="east">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="ClosedDoor" version2="west">
+				<width>32</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="LockedDoor" version2="north">
+				<width>32</width>
+				<height>30</height>
+			</hitbox>
+			<hitbox version= "LockedDoor" version2="south">
+				<width>32</width>
+				<height>30</height>
+			</hitbox>
+			<hitbox version="LockedDoor" version2="east">
+				<width>30</width>
+				<height>32</height>
+			</hitbox>
+			<hitbox version="LockedDoor" version2="west">
+				<width>30</width>
+				<height>32</height>
+			</hitbox>
+		</object>
+	</blocks>
+	<items>
+		<object name="Holdable">
+			<attributes>
+				<layer>0.35</layer>
+			</attributes>
+		</object>
+		<object name="Compass">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>11</width>
+				<height>12</height>
+			</hitbox>
+		</object>
+		<object name="Map">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Key">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="HeartContainer">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>13</width>
+				<height>13</height>
+			</hitbox>
+		</object>
+		<object name="TriForcePiece">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>10</width>
+				<height>10</height>
+			</hitbox>
+		</object>
+		<object name="WoodenBoomerang">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="MagicalBoomerang">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="Bow">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Heart">
+			<attributes>
+				<layer>0.45</layer>
+				<animation_framerate>5</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="BlueRupee">
+			<attributes>
+				<layer>0.45</layer>
+				<animation_framerate>4</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="RedRupee">
+			<attributes>
+				<layer>0.45</layer>
+				<animation_framerate>4</animation_framerate>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Arrow">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>4</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Bomb">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Fairy">
+			<attributes>
+				<layer>0.45</layer>
+				<animation_framerate>5</animation_framerate>
+				<direction_change_time>32</direction_change_time>
+				<velocity>0.15</velocity>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Clock">
+			<attributes>
+				<layer>0.45</layer>
+				<effect_duration>360</effect_duration>
+			</attributes>
+			<hitbox>
+				<width>12</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Food">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+        <object name="StepLadder">
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+		<object name="BlueRing">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="BlueCandle">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Letter">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="LifePotion">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="SecondLifePotion">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="Raft">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>16</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+		<object name="MagicalShield">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>12</height>
+			</hitbox>
+		</object>
+		<object name="RedRing">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>8</height>
+			</hitbox>
+		</object>
+		<object name="RedCandle">
+			<attributes>
+				<layer>0.45</layer>
+			</attributes>
+			<hitbox>
+				<width>8</width>
+				<height>16</height>
+			</hitbox>
+		</object>
+	</items>
+	<players>
+		<object name="Link">
+			<attributes>
+				<layer>0.395</layer>
+				<base_health>6</base_health>
+				<base_currency>0</base_currency>
+				<velocity>0.12</velocity>
+				<animation_framerate>6</animation_framerate>
+				<injure_knockback>4</injure_knockback>
+				<injure_duration>60</injure_duration>
+			</attributes>
+			<hitbox>
+				<width>12</width>
+				<height>12</height>
+			</hitbox>
+		</object>
+	</players>
+	<swords>
+		<WoodSword>
+			<damage>1</damage>
+			<length>14</length>
+		</WoodSword>
+		<WhiteSword>
+			<damage>2</damage>
+			<length>14</length>
+		</WhiteSword>
+		<MagicalSword>
+			<damage>3</damage>
+			<length>14</length>
+		</MagicalSword>
+		<Nothing>
+			<damage>0</damage>
+			<length>0</length>
+		</Nothing>
+	</swords>
+	<particles>
+		<object name="Spark">
+			<attributes>
+				<layer>0.3</layer>
+				<duration>10</duration>
+			</attributes>
+		</object>
+		<object name="SwordBlast">
+			<attributes>
+				<layer>0.3</layer>
+				<duration>20</duration>
+				<velocity>0.1</velocity>
+				<animation_framerate>2</animation_framerate>
+			</attributes>
+		</object>
+		<object name ="Arrow">
+			<attributes>
+				<layer>0.3</layer>
+				<duration>10</duration>
+				<velocity>0.2</velocity>
+			</attributes>
+		</object>
+		<object name ="SilverArrow">
+			<attributes>
+				<layer>0.3</layer>
+				<duration>100</duration>
+				<velocity>0.2</velocity>
+			</attributes>
+		</object>
+        <object name ="WallMaster">
+            <attributes>
+                <layer>0.3</layer>
+                <velocity>0.1</velocity>
+            </attributes>
+        </object>
+        <object name ="Raft">
+            <attributes>
+                <layer>0.45</layer> 
+            </attributes>
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+         <object name ="StepLadder">
+            <attributes>
+                <layer>0.45</layer> 
+            </attributes>
+            <hitbox>
+                <width>16</width>
+                <height>16</height>
+            </hitbox>
+        </object>
+	</particles>
+</data>

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<point name="HUDFrameLocation">
+		<xPosition>0</xPosition>
+		<yPosition>176</yPosition>
+	</point>
+	<point name="HUDTransitionLocation">
+		<xPosition>0</xPosition>
+		<yPosition>0</yPosition>
+	</point>
+	<point name="HUDMiniMap">
+		<xPosition>16</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name ="P2HUDFrameLoc">
+		<xPosition>0</xPosition>
+		<yPosition>56</yPosition>
+	</point>
+	<point name ="P2HUDTransLoc">
+		<xPosition>0</xPosition>
+		<yPosition>232</yPosition>
+	</point>
+	<pointcollection name="RupeeCount">
+		<point>
+			<xPosition>96</xPosition>
+			<yPosition>16</yPosition>
+		</point>
+		<point>
+			<xPosition>104</xPosition>
+			<yPosition>16</yPosition>
+		</point>
+		<point>
+			<xPosition>112</xPosition>
+			<yPosition>16</yPosition>
+		</point>
+	</pointcollection>
+	<point name="CountEdgeDimensions">
+		<xPosition>8</xPosition>
+		<yPosition>8</yPosition>
+	</point>
+	<point name="HeartEdgeDimensions">
+		<xPosition>8</xPosition>
+		<yPosition>8</yPosition>
+	</point>
+	<point name="MenuMiniMapEdgeDimensions">
+		<xPosition>8</xPosition>
+		<yPosition>8</yPosition>
+	</point>
+	<pointcollection name="KeyCount">
+		<point>
+			<xPosition>96</xPosition>
+			<yPosition>32</yPosition>
+		</point>
+		<point>
+			<xPosition>104</xPosition>
+			<yPosition>32</yPosition>
+		</point>
+		<point>
+			<xPosition>112</xPosition>
+			<yPosition>32</yPosition>
+		</point>
+	</pointcollection>
+	<pointcollection name="BombCount">
+		<point>
+			<xPosition>96</xPosition>
+			<yPosition>40</yPosition>
+		</point>
+		<point>
+			<xPosition>104</xPosition>
+			<yPosition>40</yPosition>
+		</point>
+		<point>
+			<xPosition>112</xPosition>
+			<yPosition>40</yPosition>
+		</point>
+	</pointcollection>
+	<point name="SlotBDisplay">
+		<xPosition>128</xPosition>
+		<yPosition>24</yPosition>
+	</point>
+	<point name="SlotADisplay">
+		<xPosition>152</xPosition>
+		<yPosition>24</yPosition>
+	</point>
+	<point name="LifeHearts">
+		<xPosition>176</xPosition>
+		<yPosition>32</yPosition>
+	</point>
+	<point name="MenuOffset">
+		<xPosition>0</xPosition>
+		<yPosition>176</yPosition>
+	</point>
+	<point name ="PlayerTwoOffset">
+		<xPosition>0</xPosition>
+		<yPosition>232</yPosition>
+	</point>
+	<point name="PlayerTwoMenuOffset">
+		<xPosition>0</xPosition>
+		<yPosition>176</yPosition>
+	</point>
+	<point name="InventoryFrameLocation">
+		<xPosition>0</xPosition>
+		<yPosition>0</yPosition>
+	</point>
+	<point name="InventoryTransitionLocation">
+		<xPosition>0</xPosition>
+		<yPosition>-176</yPosition>
+	</point>
+	<point name ="P2InvFrameLoc">
+		<xPosition>0</xPosition>
+		<yPosition>200</yPosition>
+	</point>
+	<point name ="P2InvTransLoc">
+		<xPosition>0</xPosition>
+		<yPosition>376</yPosition>
+	</point>
+	<point name ="PlayerTwoInvOffset">
+		<xPosition>0</xPosition>
+		<yPosition>200</yPosition>
+	</point>
+	<point name="Boomerang">
+		<xPosition>132</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name="Flute">
+		<xPosition>132</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="Bomb">
+		<xPosition>156</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name="Meat">
+		<xPosition>156</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="Candle">
+		<xPosition>204</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name="MagicRod">
+		<xPosition>204</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="Arrow">
+		<xPosition>176</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name="Bow">
+		<xPosition>184</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name="Potion">
+		<xPosition>180</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="Raft">
+		<xPosition>128</xPosition>
+		<yPosition>24</yPosition>
+	</point>
+	<point name="Book">
+		<xPosition>152</xPosition>
+		<yPosition>24</yPosition>
+	</point>
+	<point name="Ring">
+		<xPosition>164</xPosition>
+		<yPosition>24</yPosition>
+	</point>
+	<point name="Ladder">
+		<xPosition>180</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="BossKey">
+		<xPosition>180</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="Bracelet">
+		<xPosition>180</xPosition>
+		<yPosition>64</yPosition>
+	</point>
+	<point name="SelectedItem">
+		<xPosition>68</xPosition>
+		<yPosition>48</yPosition>
+	</point>
+	<point name ="PlayerTwoSelectedItem">
+		<xPosition>68</xPosition>
+		<yPosition>248</yPosition>		
+	</point>
+	<point name="MenuMiniMapFrameLocation">
+		<xPosition>0</xPosition>
+		<yPosition>88</yPosition>
+	</point>
+	<point name="MenuMapFrameTransition">
+		<xPosition>0</xPosition>
+		<yPosition>-88</yPosition>
+	</point>
+	<point name ="P2MapFrameLoc">
+		<xPosition>0</xPosition>
+		<yPosition>112</yPosition>
+	</point>
+	<point name ="P2MapTransLoc">
+		<xPosition>0</xPosition>
+		<yPosition>288</yPosition>
+	</point>
+	<point name="MenuMiniMap">
+		<xPosition>128</xPosition>
+		<yPosition>152</yPosition>
+	</point>
+	<point name ="PlayerTwoMenuMapOffset">
+		<xPosition>0</xPosition>
+		<yPosition>176</yPosition>
+	</point>
+	<point name="Map">
+		<xPosition>48</xPosition>
+		<yPosition>112</yPosition>
+	</point>
+	<point name ="PlayerTwoMapOffset">
+		<xPosition>48</xPosition>
+		<yPosition>132</yPosition>
+	</point>
+	<point name="Compass">
+		<xPosition>44</xPosition>
+		<yPosition>148</yPosition>
+	</point>
+	<point name="PlayerTwoCompassOffset">
+		<xPosition>44</xPosition>
+		<yPosition>172</yPosition>
+	</point>
+	<pointcollection name="SelectorCorners">
+		<point>
+			<xPosition>128</xPosition>
+			<yPosition>48</yPosition>
+		</point>
+		<point>
+			<xPosition>141</xPosition>
+			<yPosition>48</yPosition>
+		</point>
+		<point>
+			<xPosition>141</xPosition>
+			<yPosition>61</yPosition>
+		</point>
+		<point>
+			<xPosition>128</xPosition>
+			<yPosition>61</yPosition>
+		</point>
+	</pointcollection>
+	<pointcollection name ="PlayerTwoSelectorCorners">
+		<point>
+			<xPosition>128</xPosition>
+			<yPosition>248</yPosition>
+		</point>
+		<point>
+			<xPosition>141</xPosition>
+			<yPosition>248</yPosition>
+		</point>
+		<point>
+			<xPosition>141</xPosition>
+			<yPosition>261</yPosition>
+		</point>
+		<point>
+			<xPosition>128</xPosition>
+			<yPosition>261</yPosition>
+		</point>
+	</pointcollection>
+	<point name="SelectorShiftDimensions">
+		<xPosition>24</xPosition>
+		<yPosition>16</yPosition>
+	</point>
+</data>

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<data>
+  <sprite name="A">
+    <frame>
+      <xPosition>160</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="B">
+    <frame>
+      <xPosition>176</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="C">
+    <frame>
+      <xPosition>192</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="D">
+    <frame>
+      <xPosition>208</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="E">
+    <frame>
+      <xPosition>224</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="F">
+    <frame>
+      <xPosition>240</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="G">
+    <frame>
+      <xPosition>0</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="H">
+    <frame>
+      <xPosition>16</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="I">
+    <frame>
+      <xPosition>32</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="J">
+    <frame>
+      <xPosition>48</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="K">
+    <frame>
+      <xPosition>64</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="L">
+    <frame>
+      <xPosition>80</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="M">
+    <frame>
+      <xPosition>96</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="N">
+    <frame>
+      <xPosition>112</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="O">
+    <frame>
+      <xPosition>128</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="P">
+    <frame>
+      <xPosition>144</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="Q">
+    <frame>
+      <xPosition>160</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="R">
+    <frame>
+      <xPosition>176</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="S">
+    <frame>
+      <xPosition>192</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="T">
+    <frame>
+      <xPosition>208</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="U">
+    <frame>
+      <xPosition>224</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="V">
+    <frame>
+      <xPosition>240</xPosition>
+      <yPosition>16</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="W">
+    <frame>
+      <xPosition>0</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="X">
+    <frame>
+      <xPosition>16</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="Y">
+    <frame>
+      <xPosition>32</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="Z">
+    <frame>
+      <xPosition>48</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="0">
+    <frame>
+      <xPosition>0</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="1">
+    <frame>
+      <xPosition>16</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="2">
+    <frame>
+      <xPosition>32</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="3">
+    <frame>
+      <xPosition>48</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="4">
+    <frame>
+      <xPosition>64</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="5">
+    <frame>
+      <xPosition>80</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="6">
+    <frame>
+      <xPosition>96</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="7">
+    <frame>
+      <xPosition>112</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="8">
+    <frame>
+      <xPosition>128</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="9">
+    <frame>
+      <xPosition>144</xPosition>
+      <yPosition>0</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name=",">
+    <frame>
+      <xPosition>64</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="!">
+    <frame>
+      <xPosition>80</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="&apos;">
+    <frame>
+      <xPosition>96</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="&amp;">
+    <frame>
+      <xPosition>112</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name=".">
+    <frame>
+      <xPosition>128</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="&quot;">
+    <frame>
+      <xPosition>144</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="?">
+    <frame>
+      <xPosition>160</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name="-">
+    <frame>
+      <xPosition>176</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+  <sprite name=" ">
+    <frame>
+      <xPosition>192</xPosition>
+      <yPosition>32</yPosition>
+      <width>7</width>
+      <height>7</height>
+    </frame>
+  </sprite>
+</data>
